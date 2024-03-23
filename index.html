@@ -11,35 +11,35 @@
 
 <body>
     <div class="calculator">
-        <div class="result"></div>
-        <div class="buttons">
+        <div class="screen"></div>
+        <div class="buttonContainer">
             <div class="row">
-                <button class="empty"></button>
-                <button class="number" id="num7">7</button>
-                <button class="number" id="num4">4</button>
-                <button class="number" id="num1">1</button>
-                <button class="number" id="num0">0</button>
+                <button value="clear">AC</button>
+                <button class="number" value="7">7</button>
+                <button class="number" value="4">4</button>
+                <button class="number" value="1">1</button>
+                <button class="number" value="0">0</button>
             </div>
             <div class="row">
-                <button class="empty"></button>
-                <button class="number" id="num8">8</button>
-                <button class="number" id="num5">5</button>
-                <button class="number" id="num2">2</button>
-                <button id="point">.</button>
+                <button value="del">⬅</button>
+                <button class="number" value="8">8</button>
+                <button class="number" value="5">5</button>
+                <button class="number" value="2">2</button>
+                <button value=".">.</button>
             </div>
             <div class="row">
-                <button id="delete">⬅</button>
-                <button class="number" id="num9">9</button>
-                <button class="number" id="num6">6</button>
-                <button class="number" id="num3">3</button>
-                <button class="operator" id="equal">🟰</button>
+                <button class="unaryoperator" value="+/-">+/-</button>
+                <button class="number" value="9">9</button>
+                <button class="number" value="6">6</button>
+                <button class="number" value="3">3</button>
+                <button value="=">🟰</button>
             </div>
             <div class="row">
-                <button id="clear">AC</button>
-                <button class="operator" id="divide">➗</button>
-                <button class="operator" id="multiply">✖️</button>
-                <button class="operator" id="add">➖</button>
-                <button class="operator" id="subtract">➕</button>
+                <button class="unaryoperator" value="%">%</button>
+                <button class="binaryoperator" value="/">➗</button>
+                <button class="binaryoperator" value="*">✖️</button>
+                <button class="binaryoperator" value="-">➖</button>
+                <button class="binaryoperator" value="+">➕</button>
             </div>
         </div>
     </div>
