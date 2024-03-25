@@ -14,7 +14,7 @@ function unaryCalculate(a, operator) {
 }
 
 function binaryCalculate(a, operator, b) {
-    if (operator == '+') { return (a + b); }
+    if (operator == '+') { return (Number(a) + b); }
     else if (operator == '-') { return (a - b); }
     else if (operator == '*') { return (a * b); }
     else if (operator == '/') { return (b !== 0 ? a / b : NaN); }
